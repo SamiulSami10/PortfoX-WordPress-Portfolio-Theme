@@ -77,9 +77,13 @@ wp_nav_menu( [
 
 
 <div class="posts">
+<!-- Shows the post title  -->
     <h2><?php the_title(); ?></h2>
+ <!-- Shows the post feature image  -->
     <?php the_post_thumbnail(); ?>
+    <!-- Shows the post excerpt  -->
     <p><?php the_excerpt(); ?></p>
+    <!-- shows the post content  -->
     <p><?php the_content(); ?></p>
 </div>
 
