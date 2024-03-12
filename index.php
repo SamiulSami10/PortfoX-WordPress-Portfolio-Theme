@@ -70,12 +70,21 @@ wp_nav_menu( [
 
 <!-- Custom Post Dynamic  -->
 
+
+
+<?php while (have_posts()) : the_post(); ?>
+
+
+
 <div class="posts">
-    <h2>Holy Ramadan Month Starts Today</h2>
-    <img src="<?php echo get_template_directory_uri();?>/images/using laptop.jpg" alt="">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic sapiente, dolorum facilis ut, nobis voluptatibus sint debitis saepe vitae cupiditate animi ratione eum ducimus recusandae? Voluptates autem hic eveniet sequi eius perspiciatis consequatur tempore voluptatem. Praesentium ex ut totam, autem, qui doloribus et odio unde illo nesciunt ab saepe tempora, non quae sint optio reprehenderit aut. Ratione fugit, illo deserunt tempora pariatur blanditiis corporis. Cum aliquam ipsum expedita consequuntur libero deserunt! Aperiam recusandae voluptatum hic magnam et porro provident commodi beatae maiores. Laudantium, magnam nisi? Quis, repudiandae suscipit sed illum quo, inventore aliquid officiis numquam, totam id aut nobis nemo?</p>
+    <h2><?php the_title(); ?></h2>
+    <?php the_post_thumbnail(); ?>
+    <p><?php the_excerpt(); ?></p>
+    <p><?php the_content(); ?></p>
 </div>
 
+
+<?php endwhile ;?>
 
 
 

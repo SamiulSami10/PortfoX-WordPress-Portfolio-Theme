@@ -28,14 +28,14 @@ License URI:        https://www.gnu.org/licenses/gpl-2.0.html
     border-radius: 5px;
 } */
 
-ul{
+.header_class ul{
     justify-content: center;
     background-color: black;
     display: flex;
     padding: 10px;
 }
 
-li{
+.header_class li{
     list-style: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -102,4 +102,5 @@ li{
     text-align: center;
     font-size: 18px;
     line-height: 25px;
+    text-align: justify;
 }
