@@ -1,0 +1,75 @@
+/* 
+Theme Name:         PortfoX
+Version:            1.0.0
+Theme URI:          https://www.wordpress.org/themes/portfox
+Author:             Samiul H Pranto
+Author URI:         fb.com/samiulhpranto
+Description:        Introducing "PortfoX" – a cutting-edge WordPress    portfolio theme designed for creative professionals. With its sleek layout and distinctive "X" element, PortfoX ensures your work stands out. Showcase your projects with ease using versatile layouts and personalize your space effortlessly. Responsive and easy-to-use, this theme lets your creativity shine on every device. Elevate your online presence with PortfoX – where innovation meets simplicity for an exceptional portfolio experience
+Tags:               Portfolio, Portfolio Theme
+Text Domain:        PortfoX
+Domain Path:        /assets/lang
+Tested up to:       6.4
+Requires at least:  6.2
+Requires PHP:       7.3
+License:            GNU General Public License v2.0 or later
+License URI:        https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    width: 450px;
+    height: 300px;
+    margin: 80px auto;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+}
+
+ul{
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.header_class li:hover{
+    background-color: white;
+}
+
+.header_class li a{
+    text-decoration: none;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header_class li:hover a{
+    color: black;
+}
+
+/* .left-sidebar{
+    margin-top: 10px;
+    float: left;
+    border: 1px solid black;
+    /* background-color: bisque; */
+    width: 300px;
+    height: 100vh;
+}
+
+
+.right-sidebar{
+    margin-top: 10px;
+    float: right;
+    border: 1px solid black;
+    /* background-color:cadetblue; */
+    width: 300px;
+    height: 100vh;
+} */
