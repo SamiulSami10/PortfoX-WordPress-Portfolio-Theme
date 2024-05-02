@@ -75,7 +75,6 @@ wp_nav_menu( [
 <?php while (have_posts()) : the_post(); ?>
 
 
-
 <div class="posts">
 <!-- Shows the post title  -->
     <h2><?php the_title(); ?></h2>
